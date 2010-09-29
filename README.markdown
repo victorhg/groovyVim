@@ -1,18 +1,17 @@
 Code Snippets for Groovy / Grails / GSPs
 This is really early stage
 
-* Dependency
+Dependency
 
-SnipMate: http://www.vim.org/scripts/script.php?script_id=2540
+* SnipMate: http://github.com/msanders/snipmate.vim 
 
-* Installation
+ Installation
 
 Copy the directories to ~/.vimrc/snippets
 
 Add the following lines to your .vimrc
 
-
-call ExtractSnips("~/.vim/snippets/html", "gsp")
-call ExtractSnips("~/.vim/snippets/grails", "groovy")
+    call ExtractSnips("~/.vim/snippets/html", "gsp")
+    call ExtractSnips("~/.vim/snippets/grails", "groovy")
 
 
